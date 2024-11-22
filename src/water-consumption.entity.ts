@@ -5,7 +5,7 @@ export class WaterConsumption {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column() // Este campo não pode ser nulo
+  @Column()
   userId: number;
 
   @Column('float')

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alertas de Consumo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="historico.html">Histórico</a></li>
+      <li><a href="alertas.html">Alertas</a></li>
+    </ul>
+  </nav>
+  <h1>Alertas de Consumo Elevado</h1>
+  <form id="alert-form">
+    <label for="userId">ID do Usuário:</label>
+    <input type="number" id="userId" name="userId" required><br><br>
+    <button type="submit">Ver Alertas</button>
+  </form>
+
+  <div id="alert-result"></div>
+
+  <script src="scripts/alertas.js"></script>
+</body>
+</html>
